@@ -121,7 +121,7 @@ ul li span:hover {
 @media screen and (max-width: 500px) {
     input {
         font-size: 1rem;
-        padding-left: 0.3rem;
+        padding-left: 0.7rem;
     }
 
     button {
@@ -129,10 +129,15 @@ ul li span:hover {
     }
 
     li {
-        padding-left: 5px;
+        padding-left: 0;
+    }
+
+    .rows {
+        padding-left: 0;
+        margin-left: 0;
     }
 
     .todo-app {
-        margin-left: 1px;
+        padding: 0.7rem;
     }
 }
