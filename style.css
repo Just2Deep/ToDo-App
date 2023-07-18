@@ -57,7 +57,6 @@ input {
 
 button {
     padding: 1rem 3rem;
-    border-radius: 0.5rem;
     border: none;
     outline: none;
     background: #ff5945;
@@ -116,4 +115,24 @@ ul li span {
 ul li span:hover {
     background: #edeef0;
     border-radius: 50%;
+}
+
+
+@media screen and (max-width: 500px) {
+    input {
+        font-size: 1rem;
+        padding-left: 0.3rem;
+    }
+
+    button {
+        padding: 1rem 2rem;
+    }
+
+    li {
+        padding-left: 5px;
+    }
+
+    .todo-app {
+        margin-left: 1px;
+    }
 }
